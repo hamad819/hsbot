@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>*</pattern>
+	    <template>i have no ans for that</template>
+    </category>
+	
+	
+		<category>
+	    <pattern>HELLO BOT</pattern>
+	    <template>
+	        Hello! How can I assist you today
+	    </template>
+    </category>
+	
+	
+	<category>
+	    <pattern>YOUR FAVORITE COLOR</pattern>
+	    <template>
+	        I don't have personal preferences, but I'm here to help with any questions you have!
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>HOW DOES PHOTOSYNTHESIS WORK</pattern>
+        <template>
+            Photosynthesis is the process by which plants convert sunlight, carbon dioxide, and water into glucose and oxygen. It's crucial for their energy production.
+        </template>
+    </category>
+	
+    <category>
+    <pattern>TELL ME A JOKE</pattern>
+    <template>
+        Why don't scientists trust atoms? Because they make up everything!
+    </template>
+    </category>
+	
+	<category>
+	    <pattern>HOW CAN I RESET MY PASSWORD</pattern>
+	    <template>
+	        To reset your password, you usually need to visit the login page and look for the "Forgot Password" option. They'll guide you through the process.
+	    </template>
+    </category>
+	
+	
+	<category>
+	    <pattern>CAN YOU RECOMMEND A GOOD RESTAURANT IN THE AREA</pattern>
+	    <template>
+	        Of course! Could you please tell me your location or a specific cuisine you're interested in?
+	    </template>
+    </category>
+	
+	
+	<category>
+	    <pattern>WHAT'S THE CAPITAL OF FRANCE</pattern>
+	    <template>
+	        The capital of France is Paris.
+	    </template>
+    </category>
+	
+	<category>
+	    <pattern>HOW DO I CHANGE THE OIL IN MY CAR</pattern>
+	    <template>
+	        Changing your car's oil involves draining the old oil, replacing the oil filter, and adding new oil. It's recommended to follow your car's manual or seek professional help if you're unsure.
+	    </template>
+    </category>
+	
+	<category>
+	    <pattern>WHY DO LEAVES CHANGE COLOR IN THE FALL</pattern>
+	    <template>
+	        The change in leaf color is due to the breakdown of chlorophyll and the exposure of other pigments, like carotenoids and anthocyanins, which give leaves their autumn hues.
+	    </template>
+    </category>
+	
+	<category>
+	    <pattern>HOW DO I BAKE CHOCOLATE CHIP COOKIES</pattern>
+	    <template>
+	        Baking chocolate chip cookies involves mixing flour, butter, sugar, chocolate chips, and other ingredients, then dropping spoonfuls onto a baking sheet and baking until golden brown. Would you like a detailed recipe?
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>آپ کی پسندیدہ رنگ کیا ہے</pattern>
+        <template>میری کوئی شخصی ترجیحات نہیں ہیں، مگر میں آپ کی تمام سوالات کے جواب دینے کے لئے یہاں ہوں!</template>
+    </category>
+
+     <category>
+         <pattern>سلام</pattern>
+         <template>
+             وعلیکم السلام! آج آپ کی کس طرح مدد کر سکتا ہوں؟
+         </template>
+     </category>
+
+     
+     <category>
+<pattern>KNOCK KNOCK</pattern>
+<template>Who is there?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>WHO IS THERE</that>
+<template><person/> who?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>* WHO</that>
+<template>Ha ha very funny, <get name="name"/>.</template>
+</category>
+
+
+
+</aiml>
